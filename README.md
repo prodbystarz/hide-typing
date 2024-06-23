@@ -1,4 +1,4 @@
-# hidetyping
+# hide-typing
 
 a betterdiscord plugin that hides your typing status in dms and servers.
 
@@ -17,9 +17,9 @@ once the plugin is enabled, it will automatically hide your typing status in all
 ```javascript
 /**
  * @name HideTyping
- * @version 1.0.0
- * @description Hides your typing status in Discord
- * @author Starz
+ * @version 1.4.9
+ * @description hides typing status in DMs and servers n any other shi
+ * @author prodbystarz
  */
 
 module.exports = class HideTyping {
@@ -28,7 +28,6 @@ module.exports = class HideTyping {
         const oldStartTyping = typing.startTyping;
 
         typing.startTyping = (channelId) => {
-            // Prevent sending typing status
         };
 
         this.stop = () => {
@@ -37,7 +36,6 @@ module.exports = class HideTyping {
     }
 
     stop() {
-        // This will be overwritten when the plugin is started
     }
 };
 ```
