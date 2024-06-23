@@ -41,4 +41,4 @@ module.exports = class HideTyping {
 ```
 ## disclaimer
 
-this plugin may violate discord’s terms of service. use at your own risk. the author is not responsible for any consequences resulting from the use of this plugin.
+this plugin may violate discord’s terms of service. use at your own risk. i am **NOT** responsible for any consequences resulting from the use of this plugin.
